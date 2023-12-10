@@ -1,0 +1,19 @@
+name: asf-hyp3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - geopandas
+  - shapely
+  - rasterio
+  - hyp3_sdk
+  - appnope=0.1.3
+  - cartopy
+  - pip:
+      - boto3
+      - asf-search
+      - antimeridian
+      - matplotlib
+      - pyproj
+      - opencv-python-headless
+      - pyyaml
